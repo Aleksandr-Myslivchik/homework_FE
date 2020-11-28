@@ -2,17 +2,23 @@
     box-sizing: border-box;
 
 }
+
+.main_section {
+    width: 100%;
+
+}
 .container {
     margin:  0 auto;
-    min-width: 1400px;
-    min-height: 592px;
+    width: 1400px;
+    height: 592px;
     background-color: #ffffff;
     text-align: center;
+    margin-top: 108px;
+
 
 }
 
 .title {
-    margin-top: 108px;
     color: #212121;
     font-family: Raleway;
     font-size: 36px;
