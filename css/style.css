@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
-    
+
 }
 .container {
-    margin: auto 0;
+    margin:  0 auto;
     min-width: 1400px;
     min-height: 592px;
     background-color: #ffffff;
@@ -45,21 +45,12 @@
 }
 
 .main_wrapper {
-    display: inline-block;
-}
-
-.feature__block__wrapper {
-    float: left;
+    display: inline-flex;
 }
 
 .feature__block__item {
     width: 350px;
     height: 52px;
-}
-
-img {
-    margin: auto;
-    
 }
 
 .feature__block__item-icon {
@@ -70,6 +61,12 @@ img {
     display: flex;
     margin: auto;
     margin-top: 80px;
+
+}
+
+img {
+    margin: auto;
+
 }
 
 .feature__block__item-title {
