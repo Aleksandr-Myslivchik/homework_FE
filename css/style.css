@@ -292,7 +292,9 @@ text-transform: uppercase;
 
 /* Download Section */
 
-
+.footer {
+    width: 100%;
+}
 
 .download-section-container {
     background-image: url('../images/background.png');
