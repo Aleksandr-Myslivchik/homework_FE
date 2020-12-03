@@ -223,6 +223,7 @@ line-height: normal;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
 .list-period-element {
 
@@ -292,14 +293,28 @@ text-transform: uppercase;
 
 /* Download Section */
 
-.footer {
+.download-section {
     width: 100%;
-}
-
-.download-section-container {
     background-image: url('../images/background.png');
     background-size: cover;
+    position: relative;
+}
+.download-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+
+}
+.download-section-container {
     padding: 74px 0 63px 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
 }
 
 .download-section-title  {
@@ -363,12 +378,14 @@ background: transparent;
 
 .footer {
     width: 100%;
+    background-color: #000000;
+
 }
 
 .container-footer {
+    background-color: transparent;
     width: 1400px;
     margin:  0 auto;
-    background-color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
