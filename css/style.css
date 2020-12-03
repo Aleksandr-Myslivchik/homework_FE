@@ -11,8 +11,11 @@
     margin:  0 auto;
     width: 1400px;
     background-color: #ffffff;
-    text-align: center;
     margin-top: 108px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
@@ -52,6 +55,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 80px;
+    align-items: flex-end;
 
 }
 
@@ -60,9 +64,10 @@
 }
 
 .card-item-content {
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .card-item-content-icon {
     width: 70px;
@@ -100,4 +105,308 @@
     letter-spacing: normal;
     line-height: 20px;
     text-align: center;
+}
+
+
+
+/* Pricing Section */
+
+
+
+
+.pricing-container {
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+.pricing-container-title {
+    margin-top: 108px;
+}
+
+
+
+.pricing-item {
+    width: 343px;
+    margin: 0 40px;
+    
+}
+
+
+
+.pricing-item-content {
+    padding: 0;
+    margin: 5px;
+
+}
+
+
+
+
+.pricing-item-content-list-title {
+    height: 59px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-title-element {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+
+
+.pricing-item-content-list-price {
+
+height: 100px;
+background-color: #212121;
+border-top: 1px solid #f5f5f5;
+border-bottom: 1px solid #f5f5f5;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+#price-popular {
+    align-self: flex-end;
+}
+
+
+
+
+.list-price-element {
+  
+color: #ffffff;
+font-family: Raleway;
+font-size: 94px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+
+
+
+
+}
+
+
+
+
+
+.dollar {
+font-size: 35px;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+
+
+
+
+
+.pricing-item-content-list-period {
+    height: 51px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-period-element {
+
+color: #86878b;
+font-family: "Open Sans - Semibold";
+font-size: 14px;
+font-weight: 400;
+font-style: italic;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+}
+
+
+.pricing-item-content-list-highlight {
+    min-height: 5px;
+    background-color: #ff8b38;
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.list-highlight-element {
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.pricing-item-content-list-description {
+    background-color: #ffffff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f5f5f5;
+
+}
+
+
+.list-description-element {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Download Section */
+
+
+
+.download-section-container {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    opacity: rgba(255, 0, 0, 0.911);
+    padding: 74px 0 63px 0;
+}
+
+.download-section-title  {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+.download-section-divider {
+    display: inline-block;
+    margin-top: 26px;
+    width: 74px;
+    height: 2px;
+    background-color: #ffffff;
+
+}
+
+.download-section-text {
+
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+margin-top: 23px;
+}
+
+.download-btn {
+width: 135px;
+height: 42px;
+border: 2px solid #ffffff;
+text-decoration: none;
+margin-top: 48px;
+background: transparent; 
+}
+
+.btn-text {
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+}
+
+.container-footer {
+    width: 1400px;
+    margin:  0 auto;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 0 39px 0;
+
+}
+.icons-wrapper {
+
+    width: 317px;
+  
+}
+.list-social {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.icon-social {
+    color: #cccccc;
+font-family: "Font Awesome";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+}
+
+
+.copiright-text {
+    opacity: 0.5;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+margin-top: 15px;
 }
