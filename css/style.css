@@ -16,7 +16,7 @@
 
 }
 
-.flexbox-awesome__container_title {
+.flexbox-awesome__container-title {
     color: #212121;
     font-family: Raleway;
     font-size: 36px;
@@ -24,7 +24,6 @@
     font-style: normal;
     letter-spacing: normal;
     line-height: 43px;
-    text-align: center;
     text-transform: uppercase;
 }
 
