@@ -190,13 +190,18 @@ font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
 text-align: center;
-
+align-items: flex-end;
 }
 
-#price-popular {
-align-self: flex-end;
+.price-popular {
+align-self: flex-start;
 }
 
+.price-popular-enterprise {
+
+    align-self: flex-start;
+
+}
 
 
 
