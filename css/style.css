@@ -6,11 +6,10 @@
 .flexbox-awesome {
     width: 100%;
 
-}
+}   
 .container {
     margin:  0 auto;
-    width: 1400px;
-    background-color: #ffffff;
+    max-width: 1170px;
     margin-top: 108px;
     display: flex;
     align-items: center;
@@ -117,6 +116,8 @@
 .pricing-container {
     background-color: #f5f5f5;
     margin: 0 auto;
+    max-width: 1170px;
+
 }
 
 .pricing-container-title {
@@ -125,11 +126,11 @@
 
 
 
-.pricing-item {
+/* .pricing-item {
     width: 343px;
-    margin: 0 40px;
+    margin: 0 40px 0 0;
     
-}
+} */
 
 
 
@@ -139,15 +140,28 @@
 
 }
 
+.pricing-content-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
+}
 
-.pricing-item-content-list-title {
+.list-item {
+    display: flex;
+    align-items: center;
+    width: 343px;
+    margin: 0 40px 0 0;
+    justify-content: center;
+    ;
+}
+
+.list-title {
     height: 59px;
     background-color: #212121;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    
 
 }
 
@@ -158,34 +172,36 @@
     font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 24px;
-    text-align: center;
 
 }
 
 
 
-.pricing-item-content-list-price {
+.list-price {
 
 height: 100px;
 background-color: #212121;
 border-top: 1px solid #f5f5f5;
 border-bottom: 1px solid #f5f5f5;
-display: flex;
-justify-content: center;
-align-items: center;
 
+color: #ffffff;
+font-family: Raleway;
+font-size: 94px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
 
 }
 
 #price-popular {
-    align-self: flex-end;
+align-self: flex-end;
 }
 
 
 
 
-.list-price-element {
+/* .list-price-element {
   
 color: #ffffff;
 font-family: Raleway;
@@ -193,38 +209,25 @@ font-size: 94px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
-line-height: 24px;
 text-align: center;
 
-
-
-
-}
-
-
-
+} */
 
 
 .dollar {
+
 font-size: 35px;
 font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 }
 
-
-
-
-
-
-.pricing-item-content-list-period {
+.list-period {
     height: 51px;
     background-color: #212121;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
+
 .list-period-element {
 
 color: #86878b;
@@ -232,27 +235,19 @@ font-family: "Open Sans - Semibold";
 font-size: 14px;
 font-weight: 400;
 font-style: italic;
-letter-spacing: normal;
-line-height: 24px;
-text-align: center;
 }
 
 
-.pricing-item-content-list-highlight {
-    min-height: 5px;
-    background-color: #ff8b38;
-    color: #ffffff;
+.list-highlight {
+
+min-height: 5px;
+background-color: #ff8b38;
+color: #ffffff;
 font-family: "Open Sans";
 font-size: 14px;
 font-weight: 700;
 font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: center;
 text-transform: uppercase;
-display: flex;
-justify-content: center;
-align-items: center;
 
 }
 
@@ -268,7 +263,7 @@ text-align: center;
 text-transform: uppercase;
 }
 
-.pricing-item-content-list-description {
+.list-description {
     background-color: #ffffff;
     height: 40px;
     display: flex;
@@ -311,8 +306,8 @@ text-transform: uppercase;
 
 }
 .download-section-container {
+    max-width: 1170px;
     padding: 74px 0 63px 0;
-    background-color: transparent;
     position: relative;
     z-index: 2;
     margin: 0 auto;
@@ -385,7 +380,7 @@ background: transparent;
 
 .container-footer {
     background-color: transparent;
-    width: 1400px;
+    max-width: 1170px;
     margin:  0 auto;
     display: flex;
     flex-direction: column;
