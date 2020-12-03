@@ -315,6 +315,7 @@ text-transform: uppercase;
     background-color: transparent;
     position: relative;
     z-index: 2;
+    margin: 0 auto;
 }
 
 .download-section-title  {
