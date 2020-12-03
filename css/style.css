@@ -297,7 +297,6 @@ text-transform: uppercase;
 .download-section-container {
     background-image: url('../images/background.png');
     background-size: cover;
-    opacity: rgba(255, 0, 0, 0.911);
     padding: 74px 0 63px 0;
 }
 
