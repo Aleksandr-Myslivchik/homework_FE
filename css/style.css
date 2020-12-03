@@ -51,17 +51,19 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.flexbox-awesome__container-card {
-margin-top: 80px;
+    margin-top: 80px;
 
 }
+
 .card-item {
     width: 350px;    
 }
 
-
+.card-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 .card-item-content-icon {
     width: 70px;
     height: 70px;
