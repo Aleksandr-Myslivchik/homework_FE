@@ -5,6 +5,8 @@
 
 .flexbox-awesome {
     width: 100%;
+    background-color: #fff;
+    padding-bottom: 95px;
 
 }   
 .container {
@@ -27,19 +29,12 @@
     letter-spacing: normal;
     line-height: 43px;
     text-transform: uppercase;
-}
-
-.divider {
-    display: inline-block;
-    margin-top: 30px;
-    width: 64px;
-    height: 2px;
-    background-color: #ff8b38;
+    margin-bottom: 60px;
 
 }
+
 
 .flexbox-awesome__container-text {
-    margin-top: 30px;
     color: #86878b;
     font-family: "Open Sans";
     font-size: 14px;
@@ -123,13 +118,15 @@
 
 .pricing-container-title {
     margin-top: 108px;
+    margin-bottom: 60px;
+
 }
 
 /* Перекрывает стили card-item */
 
 .pricing-item {
     width: 343px;
-    margin: 0 20px;    
+    margin: 0 40px 0 0;    
 }
 
 
@@ -141,13 +138,6 @@ justify-content: space-between;
 
 }
 
-/* .pricing-content-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-} */
 
 .list-item {
     display: flex;
@@ -176,46 +166,25 @@ justify-content: space-between;
 
 
 
+
 .list-price {
 
-height: 100px;
+/* height: 100px; */
 background-color: #212121;
 border-top: 1px solid #f5f5f5;
 border-bottom: 1px solid #f5f5f5;
 
+}
+
+.list-price-element {
 color: #ffffff;
 font-family: Raleway;
 font-size: 94px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
-text-align: center;
-align-items: flex-end;
 }
 
-.price-popular {
-align-self: flex-start;
-}
-
-.price-popular-enterprise {
-
-    align-self: flex-start;
-
-}
-
-
-
-/* .list-price-element {
-  
-color: #ffffff;
-font-family: Raleway;
-font-size: 94px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-text-align: center;
-
-} */
 
 
 .dollar {
@@ -224,7 +193,12 @@ font-size: 35px;
 font-style: normal;
 letter-spacing: normal;
 line-height: normal;
+color: #ffffff;
+font-family: Raleway;
+font-weight: 700;
 }
+
+
 
 .list-period {
     height: 51px;
@@ -290,6 +264,134 @@ text-transform: uppercase;
     text-transform: uppercase;
 }
 
+/* Feedback section */
+
+
+
+
+
+
+.feedback-section {
+    width: 100%;
+    padding-bottom: 101px;
+}
+
+
+.feedback-section-title {
+    color: #212121;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 43px;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 60px;
+
+}
+
+.divider:after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    background: #ff8b38;
+    position: relative;
+    top: 30px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+.feedback-section-text {
+color: #86878b;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+}
+
+.feedback-section-card {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feedback-section-item {
+    flex: 0 0 273px;
+    /* width: 273px;
+    margin: 0 120px 0 0; */
+}
+
+.feedback-text {
+    display: block;
+color: #86878b;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+font-style: italic;
+letter-spacing: normal;
+line-height: normal;
+background-color: #f5f5f5;
+padding: 24px 13px 15px 12px;
+margin-bottom: 18px;
+}
+
+.feedback-text:after {
+    content: '';
+    width: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #f5f5f5;
+    position: relative;
+    display: block;
+    top: 25px;
+    left: 15px;
+}
+
+.client-card {
+    display: flex;
+
+}
+
+.client-avatar {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.client-data {
+    flex-direction: column;
+    justify-content: center;
+
+
+}.client-name {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+
+.client-post {
+    color: #86878b;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+}
+
 /* Download Section */
 
 .download-section {
@@ -327,18 +429,26 @@ text-transform: uppercase;
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 60px;
+
     
 
 }
 
-.download-section-divider {
-    display: inline-block;
-    margin-top: 26px;
+
+.download-section-title:after {
+    content: '';
     width: 74px;
     height: 2px;
-    background-color: #ffffff;
+    background: #ffffff;
+    position: relative;
+    top: 30px;
+    display: block;
+    margin: 0 auto;
 
 }
+
+
 
 .download-section-text {
 
@@ -350,19 +460,9 @@ text-transform: uppercase;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-margin-top: 23px;
 }
 
 .download-btn {
-width: 135px;
-height: 42px;
-border: 2px solid #ffffff;
-text-decoration: none;
-margin-top: 48px;
-background: transparent; 
-}
-
-.btn-text {
     color: #ffffff;
     font-family: "Open Sans - Semibold";
     font-size: 15px;
@@ -371,39 +471,58 @@ background: transparent;
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
-
+width: 135px;
+height: 42px;
+border: 2px solid #ffffff;
+text-decoration: none;
+margin-top: 48px;
+background: transparent;
+transition: all 0.3s ease-out;
+outline: none; 
 }
 
-/* footer */
+.download-btn:hover {
+    width: 160px;
+    height: 50px; 
+    border-radius: 10px 3px;
+    font-size: 20px;
+}
+
+.download-btn:hover:active {
+    background-color: rgba(255, 8, 8, 0.411);
+    font-size: 22px;
+}
+
+/* Footer */
+
+
 
 .footer {
     width: 100%;
     background-color: #000000;
+    padding: 38px 0 15px 0;
+
 
 }
 
 .container-footer {
-    background-color: transparent;
     max-width: 1170px;
     margin:  0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 38px 0 39px 0;
 
 }
 .icons-wrapper {
-
     width: 317px;
-  
 }
-.list-social {
 
+.list-social {
     display: flex;
     justify-content: space-between;
 
-
 }
+
 .icon-social {
     color: #cccccc;
 font-family: "Font Awesome";
@@ -417,7 +536,7 @@ text-align: left;
 
 
 .copiright-text {
-    opacity: 0.5;
+opacity: 0.5;
 color: #ffffff;
 font-family: "Open Sans";
 font-size: 12px;
