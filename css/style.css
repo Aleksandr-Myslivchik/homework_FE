@@ -3,22 +3,190 @@
 
 }
 
+/* Header */
+
+.header-top-section {
+    width: 100%;
+    padding: 23px 0 22px 0;
+    background-color: #212121;
+}
+
+.header-logo {
+    width: 79px;
+    height: 27px;
+}
+
+.header-container {
+    margin:  0 auto;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.top-nav {
+    display: flex;
+    opacity: 0.69;
+color: #ffffff;
+font-family: "Open Sans - Semibold";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: right;
+    
+}
+.top-nav-item {
+    margin-right: 46px;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    background: no-repeat url('../images/hero.png');
+    background-size: cover;
+    padding: 182px 0 139px 0;
+    z-index: 1;
+
+}
+
+.hero-section:after {
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.671);
+
+
+}
+
+.hero-main-content {
+    width: 512px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.hero-logo {
+    width: 175px;
+    height: 60px;
+}
+
+
+.hero-title {
+    color: #ffffff;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+margin: 33px 0 68px 0;
+
+}
+
+.hero-decsription {
+
+opacity: 0.8;
+color: #ffffff;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 23px;
+text-align: left;
+
+}
+
+/* Social MEdia Header */
+
+.social-header-section {
+    width: 100%;
+    background-color: #fff;
+    padding: 22px 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+}
+
+.social-media-text {
+    width: 333px;
+    margin-right: 80px;
+}
+
+
+
+.header_icons-wrapper {
+    width: 636px;
+}
+
+.list-social {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_icon-social {
+font-size: 48px;
+font-family: "FontAwesome";
+color: rgb(204, 204, 204);
+text-align: left;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+
+/* Awseme section */
+
+
 .flexbox-awesome {
     width: 100%;
     background-color: #fff;
     padding-bottom: 95px;
 
 }   
-.container {
+.container, .hero-container {
     margin:  0 auto;
     max-width: 1170px;
     margin-top: 108px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
+
+.hero-container {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+ z-index: 2;
+}
+
+
+.social-media-container {
+    margin:  0 auto;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
 
 .flexbox-awesome__container-title {
     color: #212121;
@@ -76,9 +244,8 @@
 
 }
 
-
-.card-item-content-title {
-    margin-top: 29px;
+/* Title-Desc for Header Social media */
+.card-item-content-title, .social-media-title {
     color: #333333;
     font-family: "Open Sans";
     font-size: 20px;
@@ -87,9 +254,28 @@
     letter-spacing: normal;
     line-height: 24px;
     text-align: center;
+    text-transform: capitalize;
+    margin-top: 29px;
 }
 
-.card-item-content-description {
+.social-media-title {
+    margin: 0;
+    text-align: left;
+
+
+}
+
+.social-media-title {
+    text-align: left;
+
+}
+
+
+
+
+
+
+.card-item-content-description, .social-media-description {
     margin-top: 25px;
     color: #86878b;
     font-family: "Open Sans";
@@ -101,7 +287,10 @@
     text-align: center;
 }
 
-
+.social-media-description  {
+    margin: 0;
+    text-align: left;
+}
 
 /* Pricing Section */
 
@@ -460,7 +649,7 @@ text-align: left;
 }
 
 
-.download-section-title:after {
+.download-section-title:after, .hero-title:after {
     content: '';
     width: 74px;
     height: 2px;
@@ -468,7 +657,7 @@ text-align: left;
     position: relative;
     top: 30px;
     display: block;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
@@ -506,6 +695,10 @@ outline: none;
 position: relative;
 }
 
+.hero-btn {
+    margin-top: 44px;
+
+}
 .download-btn:hover {
     width: 160px;
     /* height: 50px;  */
@@ -514,7 +707,7 @@ position: relative;
 }
 
 .download-btn:hover:active {
-    background-color: rgba(255, 8, 8, 0.411);
+    background-color: rgb(255, 139, 56, 0.2);
     font-size: 22px;
 }
 
@@ -572,4 +765,6 @@ line-height: normal;
 text-align: left;
 margin-top: 15px;
 }
+
+
 
