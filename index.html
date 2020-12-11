@@ -6,15 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2e68e8e7bc.js" crossorigin="anonymous"></script>
-    <title>homework_2</title>
+    <title>homework</title>
 </head>
 <body>
-
+<div class="main-wrapper">
 <!-- Hero section -->
-
-<section class="header-top-section">
+<header class="header-top-section">
     <header class="header-container">
-        <div class="header-logo-im"><img src="images/logo-header.png" alt=""></div>
+        <div class="header-wrapper">
+            <div class="header-logo"><img src="images/logo-header.png" alt=""></div>
         <nav class="top-nav">
             <ul class="top-nav">
                 <li class="top-nav-item">Features</li>
@@ -24,32 +24,38 @@
                 <li class="top-nav-item">Contact</li>
             </ul>
         </nav>
+        </div>        
     </header>
-</section>
+</header>
 
 <section class="hero-section">
     <div class="hero-container">
-        <div class="hero-main-content">
-            <div class="hero-logo"><img src="images/logo_AXIT.png" alt=""></div>
-            <h1 class="hero-title">modern axure template for beatiful prototypes</h1>
-            <span class="hero-decsription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam quia aliquam dolorem ullam, at deleniti hic, ut eligendi quas repellat atque tenetur!</span>
-            <button class="download-btn hero-btn">Download</button>
-        </div>
-        
-    </div>
+            <div class="hero-main-content-wrapper">
+                <div class="hero-main-content">
+                    <div class="hero-logo"><img src="images/logo_AXIT.png" alt=""></div>
+                    <h1 class="hero-title">modern axure template for beatiful prototypes</h1>
+                    <span class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam quia aliquam dolorem ullam, at deleniti hic, ut eligendi quas repellat atque tenetur!</span>
+                    <button class="download-btn hero-btn">Download</button>
+                </div>
+                <div class="hero-main-content">
+                    <div class="hero-logo"><img src="images/logo_AXIT.png" alt=""></div>
+                    <h1 class="hero-title">modern axure template for beatiful prototypes</h1>
+                    <span class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veniam quia aliquam dolorem ullam, at deleniti hic, ut eligendi quas repellat atque tenetur!</span>
+                    <button class="download-btn hero-btn">Download</button>
+                </div>
+            </div>              
+    </div>   
     
-    <div class="hero-form"></div>
 </section>
-
-
 <!--Social media section Header  -->
-
-<section class="social-header-section">
+<section class="social-media-section">
     <div class="social-media-container">
         <div class="social-media-text">
-            <h3 class="social-media-title">Social Media</h3>
-            <span class="social-media-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum inventore ratione.</span>
-        </div>
+            <div class="social-media-content">
+                <h3 class="social-media-title">Social Media</h3>
+                <span class="social-media-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum inventore ratione.</span>
+            </div>
+        </div>        
         <div class="header_icons-wrapper"> 
             <ul class="list-social">
             <li>
@@ -85,16 +91,7 @@
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-  <section class="flexbox-awesome">
+<section class="flexbox-awesome">
     <div class="container">
         <h2 class="flexbox-awesome__container-title divider">Why This is awesome</h2>
         <span class="flexbox-awesome__container-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
@@ -103,9 +100,9 @@
                 <div class="card-item-content">
                     <div class="card-item-content-icon"><img src="images/icons/lightbulb.png" alt="lightbulb"></div>
                     <h3 class="card-item-content-title">Thoughtful Design</h3>
-                    <span class="card-item-content-description">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    <p class="card-item-content-description">Lorem ipsum dolor sit amet, consectetur adipiscing 
                     elit. Aenean euismod bibendum laoreet. Proin gravida 
-                    dolor sit amet lacus accumsan et viverra.</span>
+                    dolor sit amet lacus accumsan et viverra.</p>
                 </div>
             </div>
             <div class="card-item">
@@ -128,9 +125,9 @@
             </div>  
         </div>  
     </div>
-  </section>  
+</section>  
   <!-- PRICNIG SECTION-->
-    <section class="flexbox-awesome pricing-section">
+<section class="flexbox-awesome pricing-section">
         <div class="container pricing-container">
             <h2 class="flexbox-awesome__container-title pricing-container-title divider">pricing options</h2>
             <span class="flexbox-awesome__container-text pricing-container-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
@@ -241,8 +238,8 @@
                     </div>
                 </div>
         </div>
-    </section>
-    <section class="feedback-section">
+</section>
+<section class="feedback-section">
         <div class="container feedback-section-container">
             <h2 class="feedback-section-title divider">what our customers are saying</h2>
             <span class="feedback-section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
@@ -291,18 +288,16 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="download-section">
+</section>
+<section class="download-section">
         <div class="container download-section-container">
             <h2 class="download-section-title divider">Stylish axure design</h2>
             <p class="download-section-text">Use the sections you need remove ones you don't. Create gorgeous prototypes faster than ever</p>
             <button class="download-btn">Download</button>
         </div>
-    </section>
-
+</section>
 <!-- flex и его настройки + maxwidth -->
-
-    <section class="footer">
+<section class="footer">
         <div class="container-footer">
             <div class="icons-wrapper"> 
                 <ul class="list-social">
@@ -337,7 +332,8 @@
             </div>
             <span class="copiright-text">&copy;2015 Axure Themes</span>       
         </div>
-    </section>
+</section>
+</div>
 </body>
 <script src="javascript/javascript.js"></script>
 </html>
