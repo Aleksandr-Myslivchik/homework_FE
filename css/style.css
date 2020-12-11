@@ -143,8 +143,26 @@ text-align: left;
     width: 100%;
     background-color: #fff;
     padding: 22px 0;
+    position: relative;
     border-bottom: 1px solid rgb(255, 255, 255);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+}
+
+.social-media-section:after {
+
+}
+
+
+
+.social-media-container {
+    margin:  0 auto;
+    max-width: 1140px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
 }
 
 .social-media-text {
@@ -197,16 +215,7 @@ line-height: normal;
 
 
 
-.social-media-container {
-    margin:  0 auto;
-    max-width: 1140px;
-    padding: 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
 
-}
 
 
 .flexbox-awesome__container-title {
