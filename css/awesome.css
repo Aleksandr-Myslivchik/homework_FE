@@ -1,0 +1,130 @@
+/* Aweseme section */
+
+
+.flexbox-awesome {
+    width: 100%;
+    background-color: #fff;
+    padding: 108px 0 6rem;
+
+}   
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+
+}
+
+
+
+.flexbox-awesome__container-title {
+    color: #212121;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+}
+
+
+.flexbox-awesome__container-text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+
+.flexbox-awesome__container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem -15px 0;
+    align-items: flex-end;
+
+}
+
+.card-item {
+    max-width: 350px;
+    margin: 0 15px;
+}
+
+.card-item-content {
+    
+    display: flex;
+    flex-flow: wrap column;    
+}
+
+
+
+.card-item-content-icon {
+    width: 70px;
+    height: 70px;
+    border: 3px solid #ff8b38;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+
+}
+
+/* Title-Desc for Header Social media */
+.card-item-content-title, .social-media-title {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 29px;
+}
+
+.social-media-title {
+    margin: 0;
+    text-align: left;
+
+
+}
+
+.social-media-title {
+    text-align: left;
+
+}
+
+
+
+.card-item-content-description, .social-media-description {
+    margin-top: 25px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.social-media-description  {
+    margin: 0;
+    text-align: left;
+}

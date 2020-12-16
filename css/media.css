@@ -1,0 +1,132 @@
+@media  (max-width: 1200px) {
+    .container, .header-container, .hero-container, .social-media-container, .pricing-container,
+    .feedback-section-container, .download-section-container, .contact-us-container,
+    .container-footer {
+        max-width: 1140px;
+    }
+}
+
+@media  (max-width: 992px) {
+    .container, .header-container, .hero-container, .social-media-container, .pricing-container,
+    .feedback-section-container, .download-section-container, .contact-us-container,
+    .container-footer {
+        max-width: 960px;
+    }
+}
+
+@media  (max-width: 768px) {
+    .container, .header-container, .hero-container, .social-media-container, .pricing-container,
+    .feedback-section-container, .download-section-container, .contact-us-container,
+    .container-footer {
+        max-width: 720px;
+    }
+}
+
+@media  (max-width: 576px) {
+    .container, .header-container, .hero-container, .social-media-container, .pricing-container,
+    .feedback-section-container, .download-section-container, .contact-us-container,
+    .container-footer {
+        max-width: 540px;
+    }
+}
+
+@media  (max-width: 1185px) {
+    .pricing-item  {
+    
+        margin-bottom: 2rem;
+
+    }
+    
+    .card-item {
+
+        margin-bottom: 3rem;
+
+    } 
+    .feedback-section-item {
+        margin-bottom: 3.75rem;
+
+    }
+
+}
+
+@media  (max-width: 1101px) {
+.contact-us-contact-form {
+    display: block;
+}
+.textera-item-adaptive {
+    display: inline-block;
+}
+.contact-us-texterea-wrapper {
+
+    display: none;
+}
+
+}
+
+@media  (max-width: 529px) {
+    .social-media-container {
+        flex-wrap: wrap;
+    }
+    .social-media-text {
+        margin-bottom: 20px;
+        ;
+    }
+
+}
+
+@media  (max-width: 597px) {
+    .header-logo {
+margin-bottom: 20px;    }
+}
+
+
+
+@media  (max-width: 910px) {
+    .hero-container {
+    display: block;
+    flex: 0;
+    }
+
+    .hero-main-content-wrapper {
+        
+        flex-wrap: wrap;
+        display: block;
+    }
+    .hero-main-content {
+        width: 512px;
+        margin-bottom: 60px;
+    }
+
+    .hero_contact-form-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero_contact-form {
+        width: 80vw;
+    }
+    .hero-input  {
+        width: 70vw;
+    }
+    .hero-main-content {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;  
+     }
+
+        /* .hero-btn    { 
+        align-self: center;
+        } */
+}
+
+/* @media (max-width: 557px) {
+    .hero-main-content {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;    }
+
+        .hero-btn    { 
+        align-self: center;
+        }
+
+} */

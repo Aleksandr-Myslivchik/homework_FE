@@ -1,0 +1,104 @@
+/* Download Section */
+
+.download-section {
+    width: 100%;
+    background: center  url('../images/background.png');
+    background-size: cover;
+    position: relative;
+    padding: 74px 0 63px;
+
+}
+.download-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+
+}
+
+
+.download-section-title  {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+    
+
+}
+
+
+.download-section-title:after, .hero-title:after {
+    content: '';
+    width: 74px;
+    height: 2px;
+    background: #ffffff;
+    position: relative;
+    top: 30px;
+    display: block;
+    /* margin: 0 auto; */
+
+}
+
+
+
+.download-section-text {
+
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.download-btn {
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+width: 135px;
+height: 42px;
+border: 2px solid #ffffff;
+text-decoration: none;
+margin-top: 48px;
+background: transparent;
+transition: all 0.3s ease-out;
+outline: none; 
+position: relative;
+}
+
+.hero-btn {
+    margin-top: 44px;
+
+}
+.download-btn:hover {
+    width: 160px;
+    /* height: 50px;  */
+    border-radius: 10px 3px;
+    font-size: 20px;
+}
+
+.download-btn:hover:active {
+    background-color: rgb(255, 139, 56, 0.2);
+    font-size: 22px;
+}

@@ -1,0 +1,56 @@
+
+.social-media-section {
+    width: 100%;
+    background-color: #fff;
+    padding: 22px 0;
+    position: relative;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+}
+
+
+
+.social-media-container {
+    margin:  0 auto;
+    max-width: 1140px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.social-media-text {
+    width: 333px;
+}
+
+
+
+.header_icons-wrapper {
+    width: 636px;
+}
+
+.list-social {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.header_icon-social {
+font-size: 48px;
+font-family: "FontAwesome";
+color: rgb(204, 204, 204);
+text-align: left;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+cursor: pointer;
+}
+
+.header_icon-social:hover > * {
+    color: rgb(156, 156, 156);
+    transition: all 0.3s linear;
+
+}

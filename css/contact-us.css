@@ -1,0 +1,115 @@
+/* Contact-Us section */
+
+.contact-us-section {
+
+    padding:   6.75rem 0 5rem 0;
+   
+   }
+   
+   .contact-us-container {
+       margin: 0 auto;
+       display: block;
+       text-align: center;
+   
+   }
+   
+   .contact-us-form-wrapper {
+       margin-top: 5rem;
+   }
+   
+   .contact-us-contact-form {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   
+   }
+   
+   .contact-us-contact-form-main {
+       display: flex;
+       flex-direction: column;
+       flex: 1 1 527px;
+   }
+   
+   .contact-us-input {
+   color: #bdbdbd;
+   font-family: "Open Sans";
+   font-size: 14px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   text-align: left;
+   border: none;
+   box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+   
+   }
+   
+   
+   .contact-us-contact-form-main > * {
+       margin: 15px 33.5px;
+   }
+   
+   .contact-us-submit {
+       width: 148px;
+       height: 46px;
+       border: none;
+       background-color: #ff8b38;
+       color: #ffffff;
+   font-family: "Open Sans - Semibold";
+   font-size: 15px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   text-align: center;
+   }
+   
+   
+   .contact-us-texterea-wrapper {
+       display: flex;
+       flex: 1 1 527px;
+   
+   }
+   
+   .contact-us-textera-item, .textera-item-adaptive  {
+       border: none;
+       box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+       resize: none;
+       color: #bdbdbd;
+   font-family: "Open Sans";
+   font-size: 14px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   text-align: left;
+   width: 100%;
+   
+   }
+
+   .textera-item-adaptive {
+       width: inherit;
+   }
+
+
+   
+   .contact-us-texterea-wrapper > * {
+       margin: 0.937rem 0;
+   }
+   
+   .contact-us-submit {
+       border: none;
+   }
+   
+   .contact-us-submit:hover {
+       color: #ffffff;
+       background-color: #ff8b38a1;
+       transition: all 0.3s linear;
+       cursor: pointer;
+   
+       }
+
+.textera-item-adaptive {
+    display: none;
+}
+
