@@ -59,15 +59,24 @@ line-height: 20px;
 }
 
 .feedback-section-card {
-    margin: 3.437rem -15px 0;
+    /* margin: 3.437rem -60px 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; */
+
+
+    margin-top: 3.437rem;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .feedback-section-item {
-    max-width: 273px;;
-    margin: 0 59px;
+    /* max-width: 273px;;
+    margin: 0 58px; */
+
+    flex-basis: 273px;
+
     
 }
 

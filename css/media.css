@@ -119,6 +119,18 @@ margin-bottom: 20px;    }
         } */
 }
 
+@media  (max-width: 849px) {
+    .feedback-section-card {
+    justify-content: space-evenly;
+    }
+}
+
+
+
+
+
+
+
 /* @media (max-width: 557px) {
     .hero-main-content {
         width: 80vw;
