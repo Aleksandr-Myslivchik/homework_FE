@@ -45,17 +45,6 @@ width: 441px;
 .top-nav-item:hover {
     cursor: pointer;
     color: #ffffffcb;
-    transition: all 0.3s linear;
+    transition: all 0.2s ease-in;
 }
 
-.top-nav-item:hover:after {
-    transition: all 0.3s linear;
-    content: '';
-    width: auto;
-    height: 1px;
-    background: #ffffffcb;
-    position: relative;
-    top: 2px;
-    display: block;
-
-}

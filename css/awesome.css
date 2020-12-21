@@ -7,21 +7,6 @@
     padding: 108px 0 6rem;
 
 }   
-.container {
-    margin: 0 auto;
-    max-width: 1170px;
-    padding: 0 15px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-    position: relative;
-    z-index: 2;
-    margin: 0 auto;
-
-}
 
 
 
@@ -51,7 +36,6 @@
 
 .flexbox-awesome__container-card {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin: 5rem -15px 0;
     align-items: flex-end;
@@ -59,15 +43,10 @@
 }
 
 .card-item {
-    max-width: 350px;
+    flex: 0 0 33.3333%;
     margin: 0 15px;
 }
 
-.card-item-content {
-    
-    display: flex;
-    flex-flow: wrap column;    
-}
 
 
 
