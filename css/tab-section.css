@@ -40,6 +40,14 @@
     margin-bottom: 1px;
 width: 112px;
 height: 112px;
+}
+.show-item {
+    background-color: #333333;
+
+}
+
+.hide-item {
+    background-color: #ff8b38;
 
 }
 .tab-main-content {
@@ -93,3 +101,27 @@ height: 46px;}
     flex: 0 0 33%;
 
 }
+
+.hide {
+    display: none;
+  }
+
+  .show {
+    
+    display: flex;
+  }
+
+
+  .fade {
+            animation-name: fade;
+            animation-duration: 1s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
