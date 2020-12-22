@@ -103,12 +103,13 @@ height: 46px;}
 }
 
 .hide {
-    display: none;
+    display: none ;
+    
   }
 
   .show {
     
-    display: flex;
+    display: flex ;
   }
 
 
@@ -117,6 +118,8 @@ height: 46px;}
             animation-duration: 1s;
   }
   
+
+
   @keyframes fade {
     from {
       opacity: 0.1;

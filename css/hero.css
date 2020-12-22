@@ -179,3 +179,15 @@ color: #ffffffb7;
 background-color: #ff8b38a1;
 transition: all 0.3s linear;
 }
+
+.hero-title:after {
+    content: '';
+    width: 74px;
+    height: 2px;
+    background: #ffffff;
+    position: relative;
+    top: 30px;
+    display: block;
+    /* margin: 0 auto; */
+
+}

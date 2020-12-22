@@ -17,17 +17,12 @@
        margin-top: 5rem;
    }
    
-   .contact-us-contact-form {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-   
-   }
+
    
    .contact-us-contact-form-main {
        display: flex;
        flex-direction: column;
-       flex: 1 1 527px;
+       flex: 0 1 527px;
    }
    
    .contact-us-input {
@@ -41,13 +36,13 @@
    text-align: left;
    border: none;
    box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+   margin: 0 0 15px 0;
+
    
    }
    
    
-   .contact-us-contact-form-main > * {
-       margin: 15px 33.5px;
-   }
+
    
    .contact-us-submit {
        width: 148px;
@@ -67,7 +62,7 @@
    
    .contact-us-texterea-wrapper {
        display: flex;
-       flex: 1 1 527px;
+       flex: 0 1 527px;
    
    }
    
@@ -84,6 +79,8 @@
    line-height: normal;
    text-align: left;
    width: 100%;
+   margin: 0 0 15px 0;
+
    
    }
 
@@ -92,10 +89,6 @@
    }
 
 
-   
-   .contact-us-texterea-wrapper > * {
-       margin: 0.937rem 0;
-   }
    
    .contact-us-submit {
        border: none;
@@ -111,5 +104,12 @@
 
 .textera-item-adaptive {
     display: none;
+}
+
+
+.contact-us__main-wrapper {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
